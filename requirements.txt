@@ -1,0 +1,14 @@
+# IP Scanner Pro - Dependências
+# Instalar com: pip install -r requirements.txt
+
+# Interface gráfica moderna
+customtkinter>=5.2.0
+
+# Requisições HTTP
+requests>=2.31.0
+
+# Suporte SSL
+urllib3>=2.0.0
+
+# Tipagem (opcional, para desenvolvimento)
+typing-extensions>=4.8.0

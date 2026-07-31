@@ -1,0 +1,38 @@
+{
+    "unifi": {
+        "host": "https://192.0.2.1:8443",
+        "username": "usuario_exemplo",
+        "password": "senha_exemplo"
+    },
+    "ocs": {
+        "base_url": "http://198.51.100.245/ocsreports",
+        "username": "usuario_exemplo",
+        "password": "senha_exemplo"
+    },
+    "scan": {
+        "ip_base": "203.0.113",
+        "start_ip": 2,
+        "end_ip": 253,
+        "exclude_ranges": [
+            [
+                100,
+                199
+            ]
+        ],
+        "ping_timeout": 1,
+        "max_workers": 30
+    },
+    "interface": {
+        "auto_refresh": true,
+        "refresh_interval": 10,
+        "blink_interval": 800,
+        "theme": "light"
+    },
+    "proxy": {
+        "enabled": false,
+        "host": "",
+        "username": "",
+        "password": "",
+        "bypass_local": true
+    }
+}
